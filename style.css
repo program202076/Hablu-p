@@ -1,0 +1,94 @@
+body{
+    background-color: aqua;
+}
+.mybtn{
+    width: 70px;
+    height: 25px;
+    background-color: tomato;
+    border-radius: 10px;
+    font-size: small;
+    padding: 5px;
+    border: none;
+    text-shadow: 1px;
+    color: wheat;
+
+}
+.mybtn:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+marquee{
+    color: red;
+    font-size: 40px;
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+table, th, td {
+    border: 1px solid red;
+}
+
+table thead tr th {
+    height: 70px;
+}
+
+table tbody tr td {
+    height: 40px;
+}
+
+/*table tbody tr:hover{
+    background-color: aquamarine;
+}*/
+
+table tbody tr:nth-child(odd){
+    background-color: blue;
+    color: white;
+}
+
+table tbody tr:nth-child(even){
+    background-color:yellowgreen;
+    color: blue;
+}
+
+table thead tr{
+    background-color: chartreuse;
+}
+
+table thead th{
+    border: none;
+    font-size: 30px;
+    color: red;
+}
+
+ul{
+    color: red;
+}
+
+ol{
+    color: yellow;
+}
+
+.num1{
+    color: blue;
+}
+
+.num2{
+    color: tomato;
+}
+
+h2{
+    text-align: center;
+    color: brown;
+}
+
+h3{
+    color: rgb(red, green, blue)
+}
+
+
+
